@@ -1,0 +1,4 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1
+TF-IDF + LogReg (tuned),0.8618,0.8685,0.8633,0.8653,0.8637,0.8618,0.8622
+Majority class,0.2910,0.0364,0.1250,0.0564,0.0847,0.2910,0.1312
+TF-IDF + LogReg (default),0.8484,0.8895,0.8196,0.8504,0.8545,0.8484,0.8487

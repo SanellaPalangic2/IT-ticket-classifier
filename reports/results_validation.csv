@@ -1,0 +1,6 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,cv_macro_f1,cv_macro_f1_std
+Majority class,0.2910,0.0364,0.1250,0.0564,0.0847,0.2910,0.1312,0.0550,0.0008
+TF-IDF + LogReg (default),0.8525,0.8950,0.8113,0.8470,0.8588,0.8525,0.8524,0.8429,0.0059
+TF-IDF + LogReg (tuned),0.8594,0.8700,0.8544,0.8616,0.8608,0.8594,0.8597,0.8586,0.0053
+TF-IDF + LinearSVC (tuned),0.8560,0.8531,0.8576,0.8548,0.8576,0.8560,0.8563,0.8562,0.0058
+Word + char n-grams + LinearSVC (tuned),0.8571,0.8542,0.8611,0.8571,0.8587,0.8571,0.8574,0.8540,0.0093

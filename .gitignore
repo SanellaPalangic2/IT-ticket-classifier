@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# All data files (downloaded or generated), but keep the empty folders
+data/**
+!data/raw/
+!data/processed/
+!data/**/.gitkeep
+
+# Report outputs that contain raw ticket text (data), and logs
+reports/test_misclassified_all.csv
+*.log
+
+# Trained model files
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+
+# Editor / OS clutter
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

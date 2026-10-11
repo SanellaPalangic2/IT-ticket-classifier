@@ -1,0 +1,10 @@
+# Direct dependencies, pinned to the exact versions installed and tested.
+# Python 3.13 on Windows, CPU only.
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+joblib==1.6.0
+pytest==9.1.1
+streamlit==1.65.0
