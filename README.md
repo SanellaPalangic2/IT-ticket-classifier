@@ -2,6 +2,8 @@
 
 Routes help-desk tickets to the right category from the ticket text alone, using TF-IDF and logistic regression. It trains on a normal laptop CPU in a few minutes and includes a Streamlit demo app.
 
+**Live demo: https://it-ticket-classifier-2xjl.onrender.com/** (free hosting: if the app has been idle, the first load can take about a minute while it wakes up)
+
 | | |
 |---|---|
 | Tickets | 47,837 (8 categories) |
