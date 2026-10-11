@@ -1,0 +1,12 @@
+# Render Blueprint: deploys the Streamlit demo as a free web service.
+# Python version comes from .python-version.
+services:
+  - type: web
+    name: it-ticket-classifier
+    runtime: python
+    plan: free
+    # The model isn't in git, so the build downloads it from the GitHub Release.
+    buildCommand: pip install -r requirements.txt && python -m src.download_model
+    # Render assigns the port in $PORT; 0.0.0.0 makes the app reachable from outside the container.
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
